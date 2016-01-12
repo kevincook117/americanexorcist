@@ -1,0 +1,169 @@
+@font-face{
+	font-family: Ouija;
+	src: url("resources/CAPTH___.ttf");
+}
+
+
+#poster{
+	float: right;
+	z-index:0;
+	z-index: 0;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#thelogo{
+	position: absolute;
+	top: 10;
+	left: 12%;
+}
+#thelogo img{
+	width: 30vw;
+	height: auto;
+
+}
+#poster img{
+	width: 50vw;
+}
+.video{
+	width: 50%;
+	height:auto;
+	position: absolute;
+	top:33%;
+	left: 2%;
+	z-index: 2;
+}
+.video{
+	border: 1px solid #c5b358;
+}
+.container-fluid{
+	position: relative;
+	margin: 0px 20px 0px 20px;
+}
+.wide{
+	width: 100%;
+}
+.container{
+	text-align: center;
+}
+.infobox{
+	text-align: left;
+	color: #c5b358;
+	position: relative;
+	padding: 0px 15px 30px 15px;
+	border: 1px solid #c5b358;
+	font-family: Garamond;
+	font-size: 16px;
+}
+
+.infobox h3{
+	font-family: Ouija;
+	color: #c5b358;
+	font-size: 20px;
+	text-align: center;
+}
+#yes{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 85px;
+	height: 50px;
+	opacity: 0.7;
+
+}
+#no{
+	position:absolute;
+	top:0;
+	right:0;
+	width: 75px;
+	height: 50px;
+	opacity: 0.7;
+}
+#starleft{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width: 30px;
+	opacity: 0.7;
+}
+#starright{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width: 30px;
+	opacity: 0.7;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.textbox{
+	width: 95%;
+	margin: 0px auto 0px auto;
+	color: gray;
+}
+.insta{
+	margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.container-fluid{
+		margin: 0px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.video{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 0px;
+		width: 100%;
+		margin-left: -6px;
+		margin-top: -90px;
+
+	}
+}
+@media only screen and (max-width: 480px) {
+	#poster{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#poster img{
+		width: 80%;
+}
+
+@media only screen and (max-width: 480px) {
+	#thelogo{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		top: 0;
+		left: 0;
+		margin-top: 0px;
+}
+
