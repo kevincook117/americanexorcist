@@ -7,6 +7,7 @@ body{
 	text-align: center;
 	position:relative;
 	width: 600px;
+
 }
 
 #logo img{
@@ -19,7 +20,7 @@ body{
 .enterbtn{
 	position: absolute;
 	float:left;
-	width: 15vw;
+	width: 30%;
 	height: 11%;
 	top:10%;
 	left:0;
@@ -35,7 +36,7 @@ body{
 .exitbtn{
 	position: absolute;
 	float:right;
-	width: 15vw;
+	width: 30%;
 	height: 11%;
 	top:10%;
 	right:0;
@@ -51,7 +52,26 @@ body{
 	font-family: Ouija;
 	src: url("resources/CAPTH___.ttf");
 }
+#shade{
+	background-color: black;
+    height: 100%;
+    opacity:0;
+    transition: 1000ms;
+    border: 1px solid black;
+}
+#shade:hover{
+	opacity: 1;
+	transition: 1000ms;
+}
 
+.logobtn h1{
+    text-align: center;
+    font-family: Ouija;
+    font-size: 12vw;
+    color: #c5b358;
+
+    
+}
 
 
 @media only screen and (max-width: 768px) {
