@@ -3,7 +3,7 @@
 	<nav>
 		<div class="container small">
 		<div class="row">
-			<a href="index.php">
+			<a href="home.php">
 				<div class="col-md-3 col-sm-3 col-xs-3" id="home">
 					<p>HOME</p>
 				</div></a>
