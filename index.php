@@ -45,20 +45,6 @@
 		</div>
 </div>
 <br>
-<div class="container">
-		<div class="infobox">
-			<img src="resources/yes.png" id="yes">
-			<img src="resources/no.png" id="no">
-		<h3>About</h3>
-		<p> 
-			A paranormal investigator is trapped inside a haunted skyscraper on Christmas Eve. The skeptical scientist, Georgette DuBois, is horrified once confronted with the reality of the supernatural. She risks life and limb to escape her ghoulish prison, stranded on the top floor.
-		</p>
-		<p>Starring: Bill Moseley, Falon Joslyn, & Jo Pincushion</p>
-		<p>Written & Directed by: Tony Trov & Johnny Zito</p>
-			<img src="resources/starleft.png" id="starleft">
-			<img src="resources/starright.png" id="starright">
-		</div>	
-</div>
 
 
 <div class="container insta">
